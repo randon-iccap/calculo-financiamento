@@ -161,7 +161,7 @@ def to_excel(df):
 
 # Interface do Streamlit
 def main():
-    st.title("💰 Simulador de Empréstimos - CONTROLADORIA FINTECH")
+    st.title("💰 Simulador de Empréstimos -  Controladoria Fintech")
     st.markdown("""
     **Simule seu empréstimo considerando:**
     - **Carência capitalizada** (sem pagamentos iniciais)
