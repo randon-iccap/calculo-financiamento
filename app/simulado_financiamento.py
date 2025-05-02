@@ -6,7 +6,7 @@ import openpyxl
 
 # Configuração da página
 st.set_page_config(
-    page_title="Simulador de Empréstimos",
+    page_title="Simulador de Empréstimos - CONTROLADORIA FINTECH",
     page_icon="💰",
     layout="centered"
 )
@@ -161,7 +161,7 @@ def to_excel(df):
 
 # Interface do Streamlit
 def main():
-    st.title("💰 Simulador de Empréstimos com Carência")
+    st.title("💰 Simulador de Empréstimos - CONTROLADORIA FINTECH")
     st.markdown("""
     **Simule seu empréstimo considerando:**
     - **Carência capitalizada** (sem pagamentos iniciais)
